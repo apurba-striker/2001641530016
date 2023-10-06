@@ -1,4 +1,4 @@
-// src/components/SingleTrain.js
+
 import React, { useEffect, useState } from 'react';
 import { getSingleTrain } from '../utils/api';
 
@@ -23,7 +23,7 @@ const SingleTrain = ({ match }) => {
       {train ? (
         <div>
           <h2>{train.trainName}</h2>
-          {/* Display train details here */}
+          
         </div>
       ) : (
         <p>Loading...</p>
